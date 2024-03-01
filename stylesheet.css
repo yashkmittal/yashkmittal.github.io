@@ -3,30 +3,40 @@ body {
     margin: 0;
     padding: 0;
 }
+* {
+    line-height: 1.0;
+}
 h1 {
     color: #333;
     font-size: 24px;
     font-weight: bold;
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
+    text-align: center;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
 }
 .main-section {
-    padding: 20px;
-    text-align: center;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     border: 2px solid #333;
+}
+.main-section li {
+    font-size: 20px; /* Adjust this value as needed */
 }
 .highlight {
     background-color: #f2f2f2;
     padding: 10px;
 }
+
 #special {
     text-align: center;
     font-weight: bold;
 }
-.my-heading {
+#my-heading {
     font-size: 32px;
     color: #333;
     text-decoration: underline;
@@ -44,4 +54,28 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-float {
+    float: left;
+    font-style: italic;
+}
+.right-float {
+    float: right;
+    font-style: italic;
+}
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: square;
 }
