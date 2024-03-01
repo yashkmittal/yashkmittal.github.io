@@ -3,7 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
+h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
@@ -23,13 +26,18 @@ header {
     text-align: center;
     font-weight: bold;
 }
+.my-heading {
+    font-size: 32px;
+    color: #333;
+    text-decoration: underline;
+}
 a {
     color: #007bff;
     text-decoration: none;
     transition: color 0.3s;
 }
 a:hover {
-    color: #0056b3;
+    color: #3bb850;
 }
 img {
     max-width: 100%;
