@@ -11,6 +11,7 @@ header {
 }
 .main-section {
     padding: 20px;
+    text-align: center;
     margin: 20px;
     border: 2px solid #333;
 }
