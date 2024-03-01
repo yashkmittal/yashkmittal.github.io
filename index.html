@@ -2,26 +2,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a sample website demonstrating HTML and CSS skills.">
-    <title>Sample Website</title>
+    <meta name="description" content="This is a sample resume website.">
+    <title>Yash Mittal: Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Sample Website</h1>
+        <h1>Everything you need to know about Yash Mittal</h1>
     </header>
     <div class="main-section">
-        <h2>Section 1</h2>
-        <p>This is the first section of the website.</p>
-        <a href="https://www.example.com">Visit Example Website</a>
+        <h2>Education</h2>
+        <a href="https://www.utexas.edu">University of Texas at Austin</a>
+        <p>B.S. in Electrical and Computer Engineering</p>
+        <p>August 2021 to May 2025</p>
+        <p>GPA: 3.80 / 4.00</p>
+        <p>Relevant Coursework: Hardware Description Language, Computer Architecture, Operation Systems, Embedded Systems, Algorithms, Software Design, Digital Logic Design,
+            Circuits Lab, Linear Systems / Signals, Probability / Statistics</p>
+        <p>Programming:  C/C++, MATLAB, Python, Java, Javascript, ARM Assembly, Verilog, Bash shell, Rust, VPP</p>
+        <p>Design Software: Visual Studio, KiCAD, Git, Microsoft Office/SharePoint, Kubernetes, Docker, JIRA, Confluence, AWS EC2</p>
     </div>
     <div class="main-section highlight">
-        <h2>Section 2</h2>
-        <p>This is the second section of the website.</p>
-        <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+        <h2>Professional Experience</h2>
+        <h3>Cisco Systems, Austin TX</h3>
+        <p>Software Engineering Intern</p>
+        <p>May 2023 to August 2023</p>
+        <ul>
+            <li>Created low-level cloud security solutions through Rust and Vector Processing, 
+                ensuring secure data transfer from AWS servers.</li>
+            <li>Doubled the verification speed of TCP/IP packets by implementing a fully associative 
+                12-entry cache storing 5-tuple keys.</li>
+            <li>Generated configurable Docker environments for client/server interactions, 
+                leading to more thorough testing and less build issues.</li>
+            <li>Decreased packet processing time by 2-3 ms by removing unnecessary variable copies 
+                and function calls for packet analysis.</li>
+        </ul>
+        <h3>Longhorn Racing Electric, Austin TX</h3>
+        <p>Embedded Software Engineer</p>
+        <p>August 2021 to Present</p>
+        <ul>
+            <li>Collaborating with undergraduates across cross-functional systems 
+                to manufacture a competitive Formula 1-style electric vehicle.</li>
+            <li>Developing embedded firmware for the vehicle control unit, 
+                considering CAN/SPI communication and driver controls signals.</li>
+            <li>Testing software/hardware that maintained fail-safe CAN communication 
+                (e.g., voltage verification and termination resistors).</li>
+            <li>Designed vehicle's wire harnessing for easy maintenance, 
+                reviewing board designs to improve integration and electrical safety.</li>
+        </ul>
+        <h3>Texas Rocketry Engineering Lab, Austin TX</h3>
+        <p>Avionics Hardware Engineer</p>
+        <p>August 2022 to Present</p>
+        <ul>
+            <li>Partnering with Firefly Aerospace to develop a rocket to launch 
+                100 km, testing the functionality of mission-critical electronics.</li>
+            <li>Integrating components to minimize wire harnessing weight/complexity 
+                and determining wattage to reduce battery size to 8 cells.</li>
+            <li>Testing software/hardware that maintained fail-safe CAN communication 
+                (e.g., voltage verification and termination resistors).</li>
+            <li>Created 20 pages of testing plans for QA of battery packs and LV electronics, 
+                confirming their function in extreme conditions.</li>
+        </ul>
+        <h3>NuEnergy Storage Technologies, Austin TX</h3>
+        <p>Electrical / Product Test Engineer</p>
+        <p>May 2022 to August 2022</p>
+        <ul>
+            <li>Provided companies with effective enclosures/packaging battery pack designs, 
+                conforming to UL and IEC safety standards.</li>
+            <li>Integrating components to minimize wire harnessing weight/complexity 
+                and determining wattage to reduce battery size to 8 cells.</li>
+            <li>Developed QA tests for 100 different battery packs, such as overcurrent tests, 
+                and underwent failure analysis for 20 failed cells.</li>
+        </ul>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/750px-Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="Placeholder Image">
     </div>
     <div id="special">
-        <p>This is a special section.</p>
+        <h2>Academic Experience</h2>
+        <h3>LC-3b ISA Simulator in C, Computer Architecture</h3>
+        <ul>
+            <li>Simulated entire microarchitecture and ISA for 16-bit assembly language, 
+                which can do basic arithmetic and memory storage.</li>
+            <li>Included pipelining, branch prediction, interrupt/exception handling, 
+                data/instruction caching, DRAM, and memory mapped I/O.</li>
+        </ul>
+        <h3>Doodle Jump on TM4C in ARM/C, Embedded Systems</h3>
+        <ul>
+            <li>Created user controls, sounds, UI, graphics to replicate the game Doodle Jump, 
+                which functioned on custom-built PCB.</li>
+            <li>Took advantage of ADC hardware, PWM I/O, UART communication to TFT displays, 
+                and Systick timers for interrupt handling.</li>
+        </ul>
+        <h3>Online CS: GO Auction in Java, Software Design</h3>
+        <ul>
+            <li>Real-time auction program, where online clients bid on multiple 
+                virtual Counterstrike items.</li>
+            <li>Includes socket code, JavaFX UI, MongoDB databases, 
+                threaded synchronization, and SHA256 password hashing.</li>
+        </ul>
+        <h3>Programmable Stopwatch in Verilog, Digital Logic Design</h3>
+        <ul>
+            <li>Controls timing and start/stop function on FPGA Board, 
+                following RTL design process (e.g., FSMs, clock logic, DACs, HLSMs).</li>
+        </ul>
     </div>
 </body>
 </html>
